@@ -1,0 +1,26 @@
+<ion-view class="walkthrough-bg" hide-nav-bar="true"> 	
+	<ion-slide-box class="walkthrough-slider" on-slide-changed="slideHasChanged($index)">
+		<ion-slide>
+			<div class="walkthrough-item">				
+				<img src="img/intro-1.png" class="device">
+			</div>
+		</ion-slide>
+		<ion-slide>
+			<div class="walkthrough-item">								
+				<img src="img/intro-2.png" class="device">
+			</div>
+		</ion-slide>
+		<ion-slide>
+			<div class="walkthrough-item">
+				
+				<div class="padding">
+					<button class="button button-block button-balanced" ng-click="goHome()">
+						<strong>Iniciar</strong>
+					</button>
+				</div>
+				<img src="img/intro-3.png" class="device">
+			</div>
+		</ion-slide>
+	</ion-slide-box>
+
+</ion-view>
